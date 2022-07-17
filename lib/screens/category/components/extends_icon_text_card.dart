@@ -50,7 +50,7 @@ class _ExtendsIconTextCardState extends State<ExtendsIconTextCard> {
                       toggle();
                     },
                     icon: Image.asset(
-                      "assets/icons/down-arrow.png",
+                      "assets/icons/fish.png",
                       width: 23,
                       height: 23,
                       fit: BoxFit.cover,

@@ -23,8 +23,8 @@ class CircleContainer extends StatelessWidget {
         padding: const EdgeInsets.all(6.0),
         child: Image.asset(
           iconPath ?? "assets/icons/star.png",
-          width: 23,
-          height: 23,
+          width: 30,
+          height: 30,
           fit: BoxFit.cover,
           color: Colors.white,
         ),

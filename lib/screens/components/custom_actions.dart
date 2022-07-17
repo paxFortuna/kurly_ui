@@ -13,8 +13,10 @@ class CustomActions extends StatelessWidget {
             width: 38,
             child: IconButton(
                 onPressed: () {},
-                icon: SvgPicture.asset(
+                icon: Image.asset(
                   "assets/icons/pin.png",
+                  width: 23,
+                  height: 23,
                   color: Colors.white,
                 )),
           ),

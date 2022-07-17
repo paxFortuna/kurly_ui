@@ -8,11 +8,11 @@ class ListCategoryMenu {
 // 샘플 데이터
 List listCategoryMenuList = [
   ListCategoryMenu(
-    icon: "assets/icons/carrot.png",
+    icon: "assets/icons/egg.png",
     title: "채소",
   ),
   ListCategoryMenu(
-    icon: "assets/icons/apple.png",
+    icon: "assets/icons/fish.png",
     title: "과일•견과•쌀",
   ),
   ListCategoryMenu(
@@ -24,7 +24,7 @@ List listCategoryMenuList = [
     title: "정육•계란",
   ),
   ListCategoryMenu(
-    icon: "assets/icons/cook.png",
+    icon: "assets/icons/salad.png",
     title: "국•반찬•메인요리",
   ),
   ListCategoryMenu(

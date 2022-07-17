@@ -10,7 +10,6 @@ class NewProductPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 16),
-      // 1
       child: CustomScrollView(
         slivers: <Widget>[
           CupertinoSliverRefreshControl(
@@ -18,7 +17,6 @@ class NewProductPage extends StatelessWidget {
               return Future<void>.delayed(const Duration(seconds: 1));
             },
           ),
-          // 2
           SliverAppBar(
             elevation: 0.0,
             automaticallyImplyLeading: false,
@@ -31,7 +29,6 @@ class NewProductPage extends StatelessWidget {
               )
             ],
           ),
-          // 3
           SliverGrid(
             gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
               // 4
@@ -57,7 +54,6 @@ class NewProductPage extends StatelessWidget {
                   ],
                 );
               },
-              // 6
               childCount: productList.length,
             ),
           ),
